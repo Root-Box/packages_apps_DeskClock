@@ -201,14 +201,6 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginRight="10dp"
                 style="@style/body"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="16dp"
-            android:gravity="center_vertical">
-
             <CheckBox
                 android:id="@+id/increasing_volume_onoff"
                 android:text="@string/alarm_increasing_volume"
