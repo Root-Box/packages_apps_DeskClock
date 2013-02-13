@@ -349,4 +349,5 @@
     <string name="clock_alarm_color_title">Ébresztő színe</string>
     <!-- Label for the digital clock alarm color settings summary -->
     <string name="clock_alarm_color_summary">Ébresztő színének beállítása.</string>
+    <string name="alarm_increasing_volume">Emelkedő csengőhang</string>
 </resources>
