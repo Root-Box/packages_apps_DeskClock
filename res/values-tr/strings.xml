@@ -69,6 +69,10 @@
     <string name="analog_gadget" msgid="1670505720837152766">"Analog saat"</string>
     <string name="help" msgid="7786263119482654015">"yardım"</string>
     <string name="settings" msgid="5849739030579520686">"Ayarlar"</string>
+    <string name="show_status_bar_icon_title">Simgeyi göster</string>
+    <string name="show_status_bar_icon_summary">Alarm saati ayarlandığında durum çubuğunda alarm simgesini göster</string>
+    <string name="unlock_on_dismiss_title">Alarm kapandığında kilidi aç</string>
+    <string name="unlock_on_dismiss_summary">Eğer seçilirse alarm kapatıldıktan sonra ekran kilidi açılacak</string>
     <string name="snooze_duration_title" msgid="1097309861110780483">"Erteleme süresi"</string>
   <plurals name="snooze_duration">
     <item quantity="one" msgid="7406963706727564418">"1 dakika"</item>
@@ -77,6 +81,14 @@
   <plurals name="snooze_picker_label">
     <item quantity="one" msgid="3783171637798575068">"dakika"</item>
     <item quantity="other" msgid="1304056759541595077">"dakika"</item>
+    <string name="flip_action_title">Çevirme eylemi</string>
+    <string name="flip_action_dialog_title">Çevirme eylemi</string>
+    <string name="flip_action_summary">Telefonu aşağı çevirerek <xliff:g id="action">%s</xliff:g></string>
+<string-array name="flip_action_entries">
+      <item>Hiç bir şey yapma</item>
+      <item>Alarmı ertele</item>
+      <item>Alarmı kapat</item>
+    </string-array>
   </plurals>
     <string name="auto_silence_title" msgid="2012754009554434544">"Şu süreden sonra sessiz:"</string>
     <string name="auto_silence_summary" msgid="7028508740659733028">"<xliff:g id="MINUTES">%d</xliff:g> dakika"</string>
@@ -201,6 +213,9 @@
     <item msgid="917900462224167608">"Analog"</item>
     <item msgid="8483930821046925592">"Dijital"</item>
   </string-array>
+    <string name="shake_title">Salla</string>
+    <string name="shake_summary">Sallayarak <xliff:g id="action">%s</xliff:g></string>
+    <string name="shake_dialog">Cihazı sallayınca\u2026</string>
     <string name="automatic_home_clock" msgid="6274174710735449252">"Otomatik ev saati"</string>
     <string name="automatic_home_clock_summary" msgid="6020476321040807273">"Saat diliminin farklı olduğu bir bölgede seyahat ederken  ülkeniz için bir saat ekleyin"</string>
     <string name="home_time_zone" msgid="9199730676287974501">"Ev saat dilimi"</string>
@@ -330,4 +345,18 @@
     <string name="timer_delete_confirmation" msgid="2815524107015816453">"Bu zamanlayıcı silinsin mi?"</string>
     <string name="city_delete_confirmation" msgid="1783441538785676299">"Bu şehir kaldırılsın mı?"</string>
     <string name="digital_gadget" msgid="2326954556720571358">"Dijital saat"</string>
+    <string name="dialog_color_picker">Renk Seçici</string>
+    <string name="press_color_to_apply">Uygulamak için renk üzerine basın</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Kod:</string>
+    <string name="hex_hint">\#FF000000</string>
+    <string name="set">Ayarla</string>
+    <string name="ics_color">Holo</string>
+    <string name="clock_time_color_title">Zaman Rengi</string>
+    <string name="clock_time_color_summary">Dijital saat için zaman rengini ayarlayın.</string>
+    <string name="clock_date_color_title">Tarih Rengi</string>
+    <string name="clock_date_color_summary">Dijital saat için zaman rengini ayarlayın.</string>
+    <string name="clock_alarm_color_title">Alarm Rengi</string>
+    <string name="clock_alarm_color_summary">Dijital saat için zaman rengini ayarlayın.</string>
 </resources>
