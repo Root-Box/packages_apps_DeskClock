@@ -81,6 +81,7 @@
   <plurals name="snooze_picker_label">
     <item quantity="one" msgid="3783171637798575068">"dakika"</item>
     <item quantity="other" msgid="1304056759541595077">"dakika"</item>
+  </plurals>
     <string name="flip_action_title">Çevirme eylemi</string>
     <string name="flip_action_dialog_title">Çevirme eylemi</string>
     <string name="flip_action_summary">Telefonu aşağı çevirerek <xliff:g id="action">%s</xliff:g></string>
@@ -89,7 +90,6 @@
       <item>Alarmı ertele</item>
       <item>Alarmı kapat</item>
     </string-array>
-  </plurals>
     <string name="auto_silence_title" msgid="2012754009554434544">"Şu süreden sonra sessiz:"</string>
     <string name="auto_silence_summary" msgid="7028508740659733028">"<xliff:g id="MINUTES">%d</xliff:g> dakika"</string>
     <string name="auto_silence_never" msgid="4821982647348750809">"Hiçbir zaman"</string>
