@@ -31,6 +31,7 @@
     <string name="default_label" msgid="5590025289805630372">"アラーム"</string>
     <string name="set_alarm" msgid="9148359866152726808">"アラームを設定"</string>
     <string name="alarm_vibrate" msgid="3476686921490362230">"バイブレーション"</string>
+    <string name="alarm_increasing_volume">音量を徐々に上げる</string>
     <string name="alarm_repeat" msgid="7242985466344233206">"繰り返し"</string>
     <string name="alert" msgid="6506982899651975645">"アラーム音"</string>
     <string name="ringtone" msgid="9110746249688559579">"着信音"</string>
@@ -78,6 +79,15 @@
     <item quantity="one" msgid="3783171637798575068">"分"</item>
     <item quantity="other" msgid="1304056759541595077">"分"</item>
   </plurals>
+    <string name="flip_action_title">フリップ動作</string>
+    <string name="flip_action_dialog_title">フリップ動作</string>
+    <string name="flip_action_summary">携帯電話を伏せると
+        <xliff:g id="action">%s</xliff:g></string>
+    <string-array name="flip_action_entries">
+      <item>なにもしない</item>
+      <item>アラームをスヌーズする</item>
+      <item>アラームを消す</item>
+    </string-array>
     <string name="auto_silence_title" msgid="2012754009554434544">"消音までの時間"</string>
     <string name="auto_silence_summary" msgid="7028508740659733028">"<xliff:g id="MINUTES">%d</xliff:g>分"</string>
     <string name="auto_silence_never" msgid="4821982647348750809">"なし"</string>
@@ -201,6 +211,10 @@
     <item msgid="917900462224167608">"アナログ"</item>
     <item msgid="8483930821046925592">"デジタル"</item>
   </string-array>
+    <string name="shake_title">シェイク</string>
+    <string name="shake_summary">振ると
+        <xliff:g id="action">%s</xliff:g></string>
+    <string name="shake_dialog">振ったときの動作を選択してください</string>
     <string name="automatic_home_clock" msgid="6274174710735449252">"自宅の時計を自動表示"</string>
     <string name="automatic_home_clock_summary" msgid="6020476321040807273">"時差のある場所にいるときに自宅の時刻を追加する"</string>
     <string name="home_time_zone" msgid="9199730676287974501">"自宅タイムゾーン"</string>
@@ -343,6 +357,12 @@
 
     <!-- Setting summary for showing/hiding the alarm statusbar icon -->
     <string name="show_status_bar_icon_summary">アラームが設定されているとき、ステータスバーにアイコンを表示する</string>
+
+    <!-- Setting title for unlock on dismissal of alarm -->
+    <string name="unlock_on_dismiss_title">アラームを止めたときロック解除する</string>
+
+    <!-- Setting summary for unlock on dismissal of alarm -->
+    <string name="unlock_on_dismiss_summary">チェックすると、端末はロックスクリーンからアラームを解除したときロック解除します</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">色選択</string>
